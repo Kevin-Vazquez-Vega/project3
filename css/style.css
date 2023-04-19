@@ -1,4 +1,4 @@
-/*Pages 1, 2, & 3*/
+/*All Pages*/
 #navigation {
   background-color: #530000;
   overflow: hidden;
@@ -124,13 +124,13 @@ html {
 }
 #gaming {
   background-color: #530000;
-  text-align: left;
+  text-align: center;
   color: white;
   font-family: 'Quicksand';
-  float: left;
+  float: center;
   border: 5px solid red;
   border-style: ridge;
-  margin-left: 150px;
+  margin-left: 10px;
   margin-right: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -209,11 +209,11 @@ html {
   text-align: left;
   color: white;
   font-family: 'Quicksand';
-  float: right;
+  float: center;
   border: 5px solid red;
   border-style: ridge;
   margin-left: 10px;
-  margin-right: 150px;
+  margin-right: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px;
@@ -238,7 +238,7 @@ html {
   background-color: #530000;
   text-align: center;
   color: white;
-  font-family: 'Trebuuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   border: 5px solid red;
   border-style: ridge;
   margin-left: 300px;
