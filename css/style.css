@@ -109,6 +109,27 @@ html {
 	position: relative;
     margin: auto;
 }
+.back, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 .caption {
   color: #ffffff;
   font-size: 15px;
@@ -119,8 +140,8 @@ html {
   text-align: center;
 }
 .numbers {
-	color: #ff0000;
-	font-size: 12px;
+	color: #ffffff;
+	font-size: 15px;
 	position: absolute;
 	top: 0;
 }
@@ -132,7 +153,7 @@ html {
     background-color: #ff00000;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease-in-out;
 }
 .active, .dot:hover{
 	background-color: #ff0000
@@ -329,6 +350,19 @@ html {
   transform: scale(1.05);
 }
 /*Maps*/
+#content {
+    background-color: #530000;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 5px solid red;
+    border-style: ridge;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 25px;
+    margin-bottom:25px;
+    padding: 10px;
+}
 #map {
 	height: 600px;
 	width: auto;
