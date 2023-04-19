@@ -187,7 +187,7 @@ html {
   transform: scale(1.05)
 }
 .games-ver {
-  width: auto;
+  width: 50%;
   height: 225px;
   padding-left: 0px;
   margin: 5px;
