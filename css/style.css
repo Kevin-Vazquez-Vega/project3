@@ -152,7 +152,8 @@ html {
 .slide-container {
     max-width: 1000px;
 	position: relative;
-    margin: auto;
+    margin-right: 25%;
+	margin-left: 25%
 }
 .back, .next {
 	cursor: pointer;
@@ -169,10 +170,6 @@ html {
 .next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
-}
-.back{
-	left: 0;
-	border-radius: 3px 0 0 3px
 }
 .back:hover, .next:hover {
 	background-color: rgba(1,0,0,1);
@@ -197,6 +194,14 @@ html {
 }
 .active, .bullets:hover{
 	background-color: #ff0000
+}
+.fade{
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
 }
 #speedcubing {
   background-color: #530000;
