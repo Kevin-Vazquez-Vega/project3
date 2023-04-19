@@ -145,7 +145,7 @@ html {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 3px;
+  margin: 0 3px;
   border-radius: 50%;
   display: inline-block;
   white-space: normal;
@@ -163,7 +163,7 @@ html {
   to {opacity: 1}
 }
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next, .text {font-size: 11px}
 }
 
 #intro {
@@ -196,7 +196,7 @@ html {
   margin-right: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
-  padding: 50px;
+  padding: 35px;
   transition: all .5s ease-in-out;
 }
 #gaming:hover {
@@ -222,7 +222,7 @@ html {
   margin-right: 150px;
   margin-top: 15px;
   margin-bottom: 15px;
-  padding: 25px;
+  padding: 35px;
   transition: all .5s ease-in-out;
 }
 #speedcubing:hover {

@@ -1,17 +1,26 @@
-var map;
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 41, lng: -90},
+        zoom: 8
+    });
 
-const iit = {lat:41.835, lng:-87.627};
-const pier = {lat: 41.892654, lng: -87.610168}
-
-function initmap(){
-	map = new google.maps.Map(document.getElementByID("map"), {
-		zoom: 15, center: iit,
-	});
-	const marker = new google.maps.Marker({
-		position: iit, map:map,
-	});
-}
-
+    const contentString =
+    '<div id="content">' +
+    '<h1 id="firstHeading" class="firstHeading">Chicago</h1>' +
+    '<div id="bodyContent">' +
+    "<p>The city of Chicago</p>" + 
+    "</div>" +
+    "</div>";
+	
+    const infowindow = new google.maps.InfoWindow({
+        content: contentString,
+        ariaLabel: "Chicago",
+    });
+    let marker = new google.maps.Marker({
+        position: { lat: 41.8781, lng: -87.6298 },
+        map,
+        title: "Chicago"
+    });
 function worldView() {
 	map.setZoom(1);
 }
