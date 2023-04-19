@@ -147,7 +147,8 @@ html {
   width: 15px;
   margin: 3px;
   border-radius: 50%;
-  display: block;
+  display: inline-block;
+  white-space: normal;
   transition: background-color 0.3s ease-in-out;
 }
 .active, .dot:hover{
