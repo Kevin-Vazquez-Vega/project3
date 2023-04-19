@@ -105,9 +105,9 @@ html {
 /*hobbies*/
 
 .slide-container {
-    max-width: 1000px;
-	position: relative;
-    margin: 20%;
+  max-width: 1000px;
+  position: relative;
+  margin: 20%;
 }
 .back, .next {
   cursor: pointer;
@@ -128,38 +128,38 @@ html {
   border-radius: 3px 0 0 3px;
 }
 .back{
-	left: 0;
-	border-radius: 3px 0 0 3px;
+  left: 0;
+  border-radius: 3px 0 0 3px;
 }
 .back:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 .numbers {
-	color: #ffffff;
-	font-size: 15px;
-	position: absolute;
-	top: 0;
+  color: #ffffff;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
 }
 .dot {
-	background-color: #000000;
-	cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 3px;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.3s ease-in-out;
+  background-color: #000000;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 3px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out;
 }
 .active, .dot:hover{
-	background-color: #ff0000
+  background-color: #ff0000
 }
 .fade{
-	animation-name: fade;
-	animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 @keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
+  from {opacity: .4}
+  to {opacity: 1}
 }
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
@@ -346,19 +346,19 @@ html {
 }
 /*Maps*/
 #content {
-    background-color: #530000;
-    text-align: center;
-    color: white;
-    font-family: 'Trebuchet MS', sans-serif;
-    border: 5px solid red;
-    border-style: ridge;
-    margin-left: 75px;
-    margin-right: 75px;
-    margin-top: 25px;
-    margin-bottom:25px;
-    padding: 10px;
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand';
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 25px;
+  margin-bottom:25px;
+  padding: 10px;
 }
 #map {
-	height: 600px;
-	width: auto;
+  height: 600px;
+  width: auto;
 }
