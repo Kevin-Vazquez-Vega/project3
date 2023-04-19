@@ -1,15 +1,11 @@
-function myMap() {
-  var mapProp = {
-    center: new google.maps.LatLng(41.87552, -87.630717),
-    zoom: 10,
-  };
-  var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-  myPointer(map);
+var map;
 
-  google.maps.event.addListener(map, "click", function(event){
-    movePtr(map, event.latLng);
-  });
-}
+function initMap() {
+    var mapProp = {
+		map = new google.maps.Map(document.getElementById("map"), { 
+		center: {lat:41.835, lmg:-87.627},
+		zoom: 15,
+	};
 
 function worldView() {
 	map.setZoom(1);
