@@ -321,9 +321,9 @@ html {
   transform: scale(1.05);
 }
 /*Maps*/
-#maps {
+#content {
   background-color: #530000;
-  text-align: center;
+  text-align: left;
   color: white;
   font-family: 'Quicksand';
   float: none;
@@ -336,6 +336,6 @@ html {
   padding: 12px;
   transition: all .5s ease-in-out
 }
-#personal:hover {
+#content:hover {
   transform: scale(1.05);
 }
