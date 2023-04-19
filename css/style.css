@@ -150,28 +150,29 @@ html {
   margin-right: auto;
 }
 .slide-container {
-    width: auto;
-    height: 230px;
-    padding-left: 0px;
+    max-width: 1000px;
 	position: relative;
-    margin: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 .back, .next {
 	cursor: pointer;
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	width: auto;
 	padding: 20px;
-	margin-top: -20px;
+	margin-top: 50px;
 	color: white;
+	border-radius: 0 3px 3px 0;
     transition: all .5s ease-in-out;
 	user-select: none;
 }
 .next {
 	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.back{
+	left: 0;
+	border-radius: 3px 0 0 3px
 }
 .back:hover, .next:hover {
 	background-color: rgba(1,0,0,1);
@@ -188,9 +189,9 @@ html {
 	cursor: pointer;
 	height: 20px;
 	width: 20px;
-	margin-bottom: 5px;
+	margin: 0 2px;
 	background-color: #000000;
-	border-radius: 40%;
+	border-radius: 50%;
 	display: inline-block;
 	transition: background-color 0.5s ease-in-out;
 }

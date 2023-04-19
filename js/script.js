@@ -29,7 +29,7 @@ function currentSlide(n) {
 }
 function showSlides(n) {
 	let i;
-	let slides = document.getElementByClassName("slide");
+	let slides = document.getElementByClassName("mySlides");
 	let bullets = document.getElementByClassname("bullet");
 	if (n > slides.length) {slideIndex = 1}
 	if (n < 1) {slideIndex = slides.length}
