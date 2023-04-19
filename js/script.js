@@ -8,7 +8,7 @@ function initMap() {
     '<div id="content">' +
     '<h1 id="firstHeading" class="firstHeading">Chicago</h1>' +
     '<div id="bodyContent">' +
-    "<p>This is the city of Chicago! Wow!!!</p>" + 
+    "<p>The City of Chicago</p>" + 
     "</div>" +
     "</div>";
     const infowindow = new google.maps.InfoWindow({
