@@ -346,8 +346,4 @@ html {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 12px;
-  transition: all .5s ease-in-out
-}
-#content:hover {
-  transform: scale(1.05);
 }
