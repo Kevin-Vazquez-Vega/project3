@@ -107,7 +107,7 @@ html {
 .slide-container {
     max-width: 1000px;
 	position: relative;
-    margin: auto;
+    margin: 20%;
 }
 .back, .next {
   cursor: pointer;
@@ -127,7 +127,11 @@ html {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover {
+.back{
+	left: 0;
+	border-radius: 3px 0 0 3px;
+}
+.back:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 .numbers {
@@ -141,10 +145,10 @@ html {
 	cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 2px;
+    margin: 3px;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 .active, .dot:hover{
 	background-color: #ff0000
@@ -191,7 +195,7 @@ html {
   margin-right: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
-  padding: 25px, 50px, 50px, 50px;
+  padding: 50px;
   transition: all .5s ease-in-out;
 }
 #gaming:hover {
