@@ -340,20 +340,6 @@ html {
   transform: scale(1.05);
 }
 /*Maps*/
-#content {
-  background-color: #530000;
-  text-align: left;
-  color: white;
-  font-family: 'Quicksand';
-  float: none;
-  border: 5px solid red;
-  border-style: ridge;
-  margin-left:150px;
-  margin-right:150px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 12px;
-}
 #map {
 	height: 600px;
 	width: auto;
