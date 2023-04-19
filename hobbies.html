@@ -27,28 +27,63 @@
     <section id="gaming">
       <h2>Gaming</h2>
       <p>My primary hobby. By far the one I have spent the most time on.</p>
-      <p>Here are 10 of my favorite games:</p>
-        <div id="row1">
+      <p>Here are 10 of my favorite games ordered 1-10:</p>
+	  <div class="slide-container">
+        <div class="slide">
+        <div class="numbers">1/10</div>
           <img class="games-ver" src="media/terraria.jpg" alt="Terraria">
+        </div>
+        <div class="slide">
+        <div class="numbers">2/10</div>
           <img class="games-ver" src="media/smash.jpg" alt="Smash Bros">
+        </div>
+        <div class="slide">
+        <div class="numbers">3/10</div>
           <img class="games-ver" src="media/minecraft.png" alt="Minecraft">
+        </div>
+        <div class="slide">
+        <div class="numbers">4/10</div>
           <img class="games-ver" src="media/earthbound.jpg" alt="Earthbound">
+        </div>
+        <div class="slide">
+        <div class="numbers">5/10</div>
           <img class="games-ver" src="media/mariokart.jpg" alt="Mario Kart 8 Deluxe">
         </div>
-        <div id="row2">
+        <div class="slide">
+        <div class="numbers">6/10</div>
           <img class="games-ver" src="media/persona.jpg" alt="Persona 5 Royal">
+        </div>
+        <div class="slide">
+        <div class="numbers">7/10</div>
           <img class="games-ver" src="media/celeste.png" alt="Celeste">
+        </div>
+        <div class="slide">
+        <div class="numbers">8/10</div>
           <img class="games-ver" src="media/hollowknight.jpg" alt="Hollow Knight">
+        </div>
+        <div class="slide">
+        <div class="numbers">9/10</div>
           <img class="games-ver" src="media/mother3.png" alt="Mother 3">
+        </div>
+        <div class="slide">
+        <div class="numbers">10/10</div>
           <img class="games-ver" src="media/adofai.jpg" alt="A Dance of Fire and Ice">
         </div>
-  </section>
-  <section id="speedcubing">
-    <h2>Speedcubing</h2>
+	  <a class="back" onclick="plusSlides(-1)">&#10094</a>
+	  <a class="next" onclick="plusSlides(+1)">&#10095</a>
+      </div>
+      <div class="bullets">
+        <span class="bullet" onclick="currentSlide(1)"></span>
+        <span class="bullet" onclick="currentSlide(2)"></span>
+        <span class="bullet" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+    <section id="speedcubing">
+      <h2>Speedcubing</h2>
       <p>I occasionally test myself by solving a 3x3 rubik's cube as fast as possible.</p>
       <p>Here is one of 5 of my recorded times I solved a 3x3.</p>
 	  <img class="speedcubing-norm" src="media/speedcubing.jpg" alt="Speedcubing">
       <img class="speedcubing-avg" src="media/average.jpg" alt="Average out of 5">
-   </section>
+    </section>
   </body>
 </html>
