@@ -352,3 +352,7 @@ html {
   margin-bottom: 30px;
   padding: 12px;
 }
+#map {
+	height: 600px;
+	width: auto;
+}
