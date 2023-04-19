@@ -34,11 +34,11 @@ function currentSlide(n) {
 function showSlides(n) {
 	let i;
 	let slides = document.getElementByClassName("slide");
-	let bullets = document.getElementByClassname("bullets");
+	let bullets = document.getElementByClassname("bullet");
 	if (n > slides.length) {slideIndex = 1}
 	if (n < 1) {slideIndex = slides.length}
 	for (i = 0; i < dots.length; i++) {
-		bullets[i].className = bullets[i].className.replace(" active");
+		bullets[i].className = bullets[i].className.replace(" active", "");
 	}
 
 	slides[slidesIndex-1],style,display = "block";
