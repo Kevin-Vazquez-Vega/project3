@@ -11,27 +11,32 @@ function initMap() {
 		position: iit, map:map,
 	});
 }
+
 function worldView() {
   map.setZoom(1);
 }
+
 function viewIIT(){
   map.setCenter(iit)
   map.setZoom(15);
 }
+
 function viewPier(){
   map.setCenter(pier)
   map.setZoom(13)
 }
 
-  let slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
