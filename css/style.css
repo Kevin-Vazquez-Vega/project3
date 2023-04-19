@@ -145,6 +145,9 @@ html {
   height: 225px;
   padding-left: 0px;
   margin: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #speedcubing {
   background-color: #530000;
@@ -226,7 +229,7 @@ html {
 	right: 0;
 }
 .back:hover, .next:hover {
-	background-color: rgba(0,0,0,1)
+	background-color: rgba(1,0,0,1)
 }
 .bullets {
 	cursor: pointer;
@@ -239,7 +242,7 @@ html {
 	transition: background-color 0.5s ease-in-out;
 }
 .active, .bullets:hover{
-	background-color: #ff6961
+	background-color: #ff0000
 }
 #calamity {
   background-color: #530000;
