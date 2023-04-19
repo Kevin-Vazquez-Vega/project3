@@ -145,10 +145,9 @@ html {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 3px;
+  margin: 3px;
   border-radius: 50%;
   display: inline-block;
-  white-space: normal;
   transition: background-color 0.3s ease-in-out;
 }
 .active, .dot:hover{
