@@ -21,25 +21,28 @@ function viewPier(){
 	map.setZoom(13)
 }
 
-let slideIndex = 1;
+  let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-	showSlides(slideIndex += n);
+  showSlides(slideIndex += n);
 }
+
 function currentSlide(n) {
-	showSlides(slideIndex = n)
+  showSlides(slideIndex = n);
 }
 function showSlides(n) {
-	let i;
-	let slides = document.getElementByClassName("mySlides");
-	let bullets = document.getElementByClassname("bullet");
-	if (n > slides.length) {slideIndex = 1}
-	if (n < 1) {slideIndex = slides.length}
-	for (i = 0; i < dots.length; i++) {
-		bullets[i].className = bullets[i].className.replace(" active", "");
-	}
-
-	slides[slidesIndex-1],style,display = "block";
-	bullets[slideIndex-1].className += " active";
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }
