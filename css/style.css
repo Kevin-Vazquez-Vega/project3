@@ -1,0 +1,283 @@
+/*Pages 1, 2, & 3*/
+#navigation {
+  background-color: #530000;
+  overflow: hidden;
+}
+#nav-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#navigation ul {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#navigation ul li {
+  float: left;
+  display: block;
+  right: 50%;
+  position: relative;
+  font-family: 'Quicksand';
+  font-size: 18px;
+}
+#navigation a {
+  display: block;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#navigation ul li a:hover {
+  background-color: #8b0000
+}
+html {
+  background-color: #000000;
+  background-image: linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%), linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+}
+
+/*index*/
+
+#personal {
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand';
+  float: none;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left:150px;
+  margin-right:150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 12px;
+  transition: all .5s ease-in-out
+}
+#personal:hover {
+  transform: scale(1.05);
+}
+#skills {
+  background-color: #530000;
+  text-align: left;
+  color: white;
+  font-family: 'Quicksand';
+  float: left;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 150px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+  transition: all .5s ease-in-out
+}
+#skills:hover {
+  transform: scale(1.05);
+}
+#education {
+  background-color: #530000;
+  text-align: left;
+  color: white;
+  font-family: 'Quicksand';
+  float: right;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 20px;
+  margin-right: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+  transition: all .5s ease-in-out;
+}
+#education:hover {
+  transform: scale(1.05);
+}
+
+/*hobbies*/
+
+#intro {
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand';
+  float: none;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 12px;
+  transition: all .5s ease-in-out;
+}
+#intro:hover {
+  transform: scale(1.05);
+}
+#gaming {
+  background-color: #530000;
+  text-align: left;
+  color: white;
+  font-family: 'Quicksand';
+  float: left;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 150px;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: all .5s ease-in-out;
+}
+#gaming:hover {
+  transform: scale(1.05)
+}
+.games-ver {
+  width: auto;
+  height: 225px;
+  padding-left: 0px;
+  margin: 5px;
+}
+#speedcubing {
+  background-color: #530000;
+  text-align: left;
+  color: white;
+  font-family: 'Quicksand';
+  float: right;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 10px;
+  margin-right: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: all .5s ease-in-out;
+}
+#speedcubing:hover {
+  transform: scale(1.05)
+}
+.speedcubing-norm {
+  width: auto;
+  height: 270px;
+  margin: 7px;
+}
+.speedcubing-avg {
+  width: auto;
+  height: 270px;
+  margin: 7px;
+}
+
+/*mods*/
+#top {
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuuchet MS', sans-serif;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+#terraria {
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuuchet MS', sans-serif;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+#calamity {
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 25px;
+  margin-bottom:25px;
+  padding: 10px;
+}
+#thorium {
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 25px;
+  margin-bottom:25px;
+  padding: 10px;
+}
+#fargo {
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 25px;
+  margin-bottom:25px;
+  padding: 10px;
+}
+#outro {
+  background-color: #530000;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  border: 5px solid red;
+  border-style: ridge;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 25px;
+  margin-bottom:25px;
+  padding: 10px;
+}
+.calamity-img {
+  width: 32em;
+  height: auto;
+  margin: 7px;
+  transition: all .5s ease-in-out;
+}
+.calamity-img:hover {
+  transform: scale(1.05);
+}
+.thorium-img {
+  width: 30em;
+  height: auto;
+  margin: 7px;
+  transition: all .5s ease-in-out;
+}
+.thorium-img:hover {
+  transform: scale(1.05);
+}
+.fargo-img {
+  width: 30em;
+  height: auto;
+  margin: 7px;
+  transition: all .5s ease-in-out;
+}
+.fargo-img:hover {
+  transform: scale(1.05);
+}
