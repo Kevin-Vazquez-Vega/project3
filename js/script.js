@@ -8,7 +8,7 @@ function initMap() {
     '<div id="content">' +
     '<h1 id="firstHeading" class="firstHeading">Chicago</h1>' +
     '<div id="bodyContent">' +
-    "<p>The city of Chicago.</p>" + 
+    "<p>This is the city of Chicago! Wow!!!</p>" + 
     "</div>" +
     "</div>";
     const infowindow = new google.maps.InfoWindow({
@@ -16,7 +16,7 @@ function initMap() {
         ariaLabel: "Chicago",
     });
      let marker = new google.maps.Marker({
-        position: { lat:41.835, lng:-87.627 },
+        position: {lat:41.835, lng:-87.627},
         map,
         title: "The Illinois Institute of Technology"
     })
@@ -36,17 +36,6 @@ function initMap() {
       center: {lat:41.835, lng:-87.627},
       radius: 10000,
     });
-}
-function worldView() {
-	map.setZoom(1);
-}
-function viewIIT() {
-	map.setCenter(iit);
-	map.setZoom(15);
-}
-function viewPier(){
-	map.setCenter(pier);
-	map.setZoom(15);
 }
 let slideIndex = 1;
 showSlides(slideIndex);
