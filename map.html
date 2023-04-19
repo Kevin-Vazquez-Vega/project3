@@ -5,9 +5,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script src="script/script.js"></script>
-    <meta name="viewport" content="initial-scale=1.0">
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script async src="js/script.js"></script>
     <meta charset="UTF-8">
     <title>Map of Index</title>
   </head>
@@ -25,9 +24,16 @@
       </nav>
     </header>
     <div id="content">
-      <h1>The Map</h1>
-      <div id="map"></div>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGQwCCq6tHaE-X32EFyN9FRlv50VDGphY&callback=initMap"></script>
+      <h1>The Maps</h1>
+      <div id="maps">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGQwCCq6tHaE-X32EFyN9FRlv50VDGphY&callback=initMap"></script>
+        <h2>Change the map using these 3 buttons.</h2>
+        <ul>
+          <li><a onclick="worldView()">View the World (Zoom Out)</a></li>
+          <li><a onclick="viewIIT()">View IIT</a></li>
+          <li><a onclick="viewPier()">View Navy Pier</a></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
